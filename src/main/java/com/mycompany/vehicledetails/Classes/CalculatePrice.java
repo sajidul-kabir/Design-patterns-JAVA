@@ -9,6 +9,7 @@ package com.mycompany.vehicledetails.Classes;
  *
  * @author OMEN
  */
+
 //Single Responsibility principle
 public class CalculatePrice {
     public double convertCurrency(double dollar){
