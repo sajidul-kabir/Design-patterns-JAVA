@@ -9,6 +9,7 @@ package com.mycompany.vehicledetails.Classes;
  *
  * @author OMEN
  */
+//Single Responsibility Principle
 public class VehicleDetails {
      
    public void drive(){
