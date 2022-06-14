@@ -12,5 +12,9 @@ public class Main {
 
         Dress dress3 = new Jacket(new Tie(new Uniform()));
         dress3.wearCloth();
+        System.out.println("");
+
+        Dress dress4 =  new Jacket(new Uniform());
+        dress4.wearCloth();
     }
 }

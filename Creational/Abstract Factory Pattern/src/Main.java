@@ -7,5 +7,6 @@ public class Main {
         AbstractFactory modernProduct = FactoryProducer.getBrand("modern");
         modernProduct.getSeaterType("sofa").sitOn();
         modernProduct.getSeaterType("chair").sitOn();
+
     }
 }
