@@ -19,17 +19,15 @@ public class Client {
         
         int input = sc.nextInt();
         if(input==1){
-        Bkash b= new Bkash();
-        PaymentGateway pg = new PaymentGateway(b);
+        PaymentGateway pg = new PaymentGateway(new Bkash());
         pg.acceptPayment();
         }
         else{
-         Rocket r= new Rocket();
-        PaymentGateway pg = new PaymentGateway(r);
-        pg.acceptPayment();   
+        PaymentGateway pg = new PaymentGateway(new Rocket());
+        pg.acceptPayment();
         }
-        
-        
+
+
     }
    
 }
